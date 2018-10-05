@@ -10,7 +10,31 @@
 </head>
 
 <body>
+    <div class="row">
+        <form class="col s12">
 
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Placeholder" id="inputComment" type="text" class="validate">
+                    <label for="comment">Ingresa tu comentario</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s4">
+                    <button id="commentBtn" onclick="comment()">Enviar Comentario</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s4">
+                    <h3>Comentarios</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s8"></div>
+                <button onclick="eliminate()" id="eliminateBtn">Eliminar</button>
+            </div>
+        </form>
+    </div>
     <script src="app.js"></script>
 </body>
 
