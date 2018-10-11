@@ -1,0 +1,18 @@
+#inputComment {
+    height: 8em;
+    width: 21em;
+}
+
+#commentBtn {
+    margin-left: 12em;
+    margin-top: 2em;
+}
+
+#eliminateBtn {
+    margin-left: 13em;
+}
+
+#post {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
